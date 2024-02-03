@@ -9,7 +9,7 @@ function App() {
     document.title = 'Felipe Castro - Portifolio';
   }, []);
 
-  return (
+  return 
     <div className="App">
       <Home/>
     </div>
