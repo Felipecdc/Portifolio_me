@@ -90,7 +90,7 @@ function InfoProjects({ closeInfo, projectInfo }: InfoProjectsProps){
                             </div>
                             <div className='info'>
                                 <p>{projectInfo.info[actualLang]}</p>
-                            </div>
+                            </div> 
                         </div>
                             <div className='techs-info'>
                                 {projectInfo.front !== "" && (

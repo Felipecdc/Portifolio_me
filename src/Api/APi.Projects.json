@@ -110,35 +110,6 @@
                 "deploy": "",
                 "figma": ""
             }
-        },
-        "sk.": {
-            "name": "Task.",
-            "techs": ["React Native", "JavaScript"],
-            "stack": "Web",
-            "banner": "https://i.imgur.com/kTUCTKH.png",
-            "allimages": {
-                "1": "",
-                "2": "",
-                "3": "",
-                "4": "",
-                "5": "",
-                "6": "",
-                "7": "",
-                "8": ""
-            },
-            "info": {
-                "pt": "Aplicativo desenvolvido para facilitar a gestão de tarefas pessoais, proporcionando um ambiente seguro com sistema de autenticação. Permite a criação, edição, exclusão e persistência de tarefas pelo usuário. Essa ferramenta foi elaborada com o objetivo de aprimorar a organização de tarefas diárias, oferecendo uma plataforma organizada para o gerenciamento pessoal de afazeres.",
-                "en": "Application designed to streamline personal task management, offering a secure information environment with an authentication system. It enables users to create, edit, delete, and persistently manage their tasks. This tool is crafted to enhance daily routines by providing an organized platform for personal task organization."
-            },            
-            "front": "",
-            "back": "",
-            "styles": "",
-            "links": {
-                "github": "https://github.com/Felipecdc/App-Tasks",
-                "linkedin": "https://www.linkedin.com/posts/felipe-castro-039335267_app-para-organizar-a-rotina-com-tarefas-pessoais-activity-7111808444533239808-e4P0?utm_source=share&utm_medium=member_desktop",
-                "deploy": "",
-                "figma": ""
-            }
         }
     }
 }
