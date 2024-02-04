@@ -49,11 +49,11 @@ function Home() {
         { isTop ? (
           <>
             <span>{t("View more")}</span>
-            <BiSolidDownArrow size={25}/>
+            <BiSolidDownArrow />
           </>
           ) : (
           <>
-            <BiSolidUpArrow size={25}/>
+            <BiSolidUpArrow />
           </>
           )
         }

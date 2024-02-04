@@ -5,7 +5,7 @@ $font-alternates: 'Montserrat Alternates', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 86vh;
+    height: 86vh;  
 
     h1{
         font-weight: 500;
@@ -23,13 +23,27 @@ $font-alternates: 'Montserrat Alternates', sans-serif;
     justify-content: center;
     height: 60px;
     animation: move 1.1s infinite alternate;
-    
     span{
         font-size: 15px;
-    }
-    
-    span{
         color: var(--gray-700);
+    }
+    svg{
+        width: 140px !important;
+        height: 40px;
+        font-size: 45px;
+        color: var(--gray-700);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .view-more-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .view-more-container{
+        display: none;
     }
 }
 
@@ -46,38 +60,12 @@ $font-alternates: 'Montserrat Alternates', sans-serif;
     }
 }
 
-.view-more-container svg{
-    width: 140px !important;
-    height: 40px;
-    color: var(--gray-700);
-}
-
 .about-me {
     display: flex;
     height: 61rem;
     align-items: center;
     justify-content: center;
     font-family: $font-primary;
-}
-
-.navigation-button {
-    display: flex;
-    position: fixed;
-    right: 1.5rem;
-    bottom: 1.5rem;
-}
-
-.most{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 body.no-scroll{

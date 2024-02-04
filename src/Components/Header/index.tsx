@@ -4,7 +4,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import AOS from 'aos';
 
-
+ 
 const iconsColor = {
     backgroundColor: "transparent",
     border: 0,
@@ -29,16 +29,16 @@ function Header() {
             <nav className="header-container">
                 <div className="header-icons">
                     <a style={iconsColor} target="_blank" href="https://www.instagram.com/felipe_castroz/" data-aos="fade-down">
-                        <FaInstagram size={32} />
+                        <FaInstagram />
                     </a>
                     <a style={iconsColor} target="_blank" href="https://www.linkedin.com/in/felipe-castro-039335267/" 
                     data-aos="fade-up"  
                     data-aos-anchor-placement="center-bottom"
                     >
-                        <FaLinkedin size={32} />
+                        <FaLinkedin />
                     </a>
                     <a style={iconsColor} target="_blank" href="https://github.com/Felipecdc" data-aos="fade-down">
-                        <FaGithub size={32} />
+                        <FaGithub />
                     </a>
                 </div>
                 <div className="header-lang">

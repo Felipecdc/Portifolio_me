@@ -15,7 +15,7 @@ function Skills() {
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (startX === 0) return;
 
-    const delta = startX - e.clientX;
+    const delta = startX - e.clientX; 
 
     if (iconsTechRef.current) {
       iconsTechRef.current.scrollLeft += delta;

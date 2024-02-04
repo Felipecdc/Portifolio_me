@@ -8,19 +8,19 @@ import TechIcons from '../../../Components/Techs';
 function About(){
 
     const { t } = useTranslation();
-
+ 
     useEffect(() => {
         AOS.init();
     }, [])
 
-    return(
+    return( 
         <div className='about-me-container'>
             <div 
             className='container-photo' 
             data-aos="fade-up-right"
             data-aos-offset="200"
             data-aos-delay="200"
-            >
+            > 
                 <div className='photo'>
                     <h1>My photo</h1>
                 </div>
@@ -45,7 +45,7 @@ function About(){
                     </p>
                 </div>
                 <a className='curriculo' href="../Assets/Curriculo.pdf" download>
-                    Baixar CV
+                    {t("Baixar CV")}
                 </a>
             </div>
         </div>

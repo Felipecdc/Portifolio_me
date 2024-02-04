@@ -7,9 +7,9 @@
 .header-icons{
     display: flex;
     gap: 20px;
-
     a{
         svg{
+            font-size: 32px;
             color: var(--white-900);
         }
         &:hover{
@@ -17,6 +17,21 @@
                 color: var(--orange-900);
                 animation: translatey 0.8s infinite alternate;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-icons{
+        a > svg{
+            font-size: 25px;
+        }
+    }
+}
+@media screen and (max-width: 900px) {
+    .header-icons{
+        a > svg{
+            font-size: 28px;
         }
     }
 }
@@ -57,3 +72,11 @@
     display: none;
 }
   
+@media screen and (max-width: 400px) {
+    .select{
+        border: 1px solid var(--gray-300);
+        padding: 6px;
+        font-size: 12px;
+        width: 100px;
+    }
+}

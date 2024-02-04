@@ -17,7 +17,7 @@
 
 .up{
     width: 40px;
-    height: 40px;
+    height: 40px; 
     border-radius: 90px;
     margin-bottom: 10px;
 }
@@ -32,6 +32,16 @@
 .up:hover, .contact:hover{
     animation: animation 0.8s;
     transition: all 1s;   
+}
+
+@media screen and (max-width: 700px) {
+    .contact{
+        width: 100px;
+        font-size: 13px;
+    }
+    .up, .contact{
+        opacity: 0.8;
+    }
 }
 
 @keyframes animation {

@@ -32,7 +32,7 @@ $font-alternates: 'Montserrat Alternates', sans-serif;
         color: var(--orange-900);
         font-weight: bold;
         font-size: 50px;
-    }
+    } 
     p{
         font-size: 20px;
         text-align: start;
@@ -63,3 +63,66 @@ $font-alternates: 'Montserrat Alternates', sans-serif;
     opacity: 1;
 }
 
+@media screen and (max-width: 2150px) {
+    .photo{
+        width: 400px;
+        height: 400px;
+    }
+    .who-am-i{
+        h1{
+            font-size: 40px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 25px;
+        }
+        br{
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .about-me-container{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .photo{
+        width: 400px;
+        height: 400px;
+        border-radius: 40%;
+    }
+    .who-am-i{
+        padding-top: 30px;
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 13px;
+            line-height: 25px;
+        }
+        br{
+            margin-bottom: 10px;
+        }
+    }
+    .curriculo{
+        width: auto;
+        font-size: 15px;
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-me-container{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .photo{
+        width: 300px;
+        height: 300px;
+        border-radius: 35%;
+    }
+    .curriculo{
+        font-size: 13px;
+    }
+}

@@ -5,3 +5,9 @@
     align-items: center;
     height: 61rem;
 }
+
+@media screen and (max-width: 400px) {
+    .projects-container{
+        height: auto;
+    }
+}

@@ -8,7 +8,7 @@ function Presentation(){
     const { t } = useTranslation();
 
     return(
-        <main className='info-content'>
+        <main className='info-content'> 
             <h1 className='hello'>{t("Ola,")}</h1>
             <h1 className='name'>{t("Eu sou Felipe")}<span> Castro</span></h1>
             <h1 className='more'>{t("Desenvolvedor Full-stack")}</h1>

@@ -178,8 +178,7 @@ function Projects(){
                         </div> 
                     </div>
                     <div className='technology'>
-
-                    </div>
+                    </div> 
                 </div>
 
             </div>

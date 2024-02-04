@@ -1,4 +1,5 @@
-
+$font-primary: 'Montserrat', sans-serif;
+$font-alternates: 'Montserrat Alternates', sans-serif;
 
 .skills {
     display: flex;
@@ -9,23 +10,21 @@
     justify-content: center;
     background-color: rgb(139, 139, 139);
     box-shadow: inset 0px 0px 20px black;
-
     h1{
-        text-align: center;
+        font-family: $font-primary;
+        text-align: center; 
         width: 200px;
         border-bottom: 2px solid rgb(113, 113, 113);
     }
-
     button{
         border: 0;
         padding: 0 20px;
         background-color: transparent;
         svg{
             color: rgb(0, 0, 0);
-            opacity: 0.7;
+            opacity: 0.7; 
         }
     }
-
   }
 
 .content-skills{
@@ -42,7 +41,7 @@
     height: 120px;
     gap: 60px;
     overflow-x: hidden;
-
+    
     a{
         display: flex;
         align-items: center;
@@ -54,6 +53,7 @@
     svg{
         opacity: 0.5;
         color: black;
+        font-size: 80px;
         &:hover {
             opacity: 1;
             transition: all 0.5s;
@@ -61,6 +61,50 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .skills{
+        height: 220px;
+        margin: 40px 0 100px 0;
+        button > svg{
+            color: rgb(56, 56, 56);
+        }
+    }
+    .icon > svg{
+        font-size: 60px;
+    }
+    .icons-tech{
+        width: 700px;
+        height: 100px;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .skills{
+        height: 220px;
+        margin: 40px 0 70px 0;
+    }
+    .icons-tech{
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .skills{
+        height: 220px;
+        margin: 40px 0 70px 0;
+        h1{
+            font-size: 27px;
+        }
+    }
+    .icons-tech{
+        width: 65vw;
+        gap: 35px;
+    }
+}
+
+
 
 .icon:hover {
     .html {

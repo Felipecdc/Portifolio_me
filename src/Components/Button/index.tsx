@@ -9,7 +9,7 @@ function NavigationButton(){
 
     useEffect(() => {
         AOS.init();
-    }, [])
+    }, []) 
 
     function ScrollToTop(){
         window.scrollTo({

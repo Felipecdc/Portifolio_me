@@ -22,3 +22,15 @@ $font-alternates: 'Montserrat Alternates', sans-serif;
     color: var(--white-700);
     font-size: 25px;
 }
+
+@media screen and (max-width: 400px) {
+    .hello{
+        font-size: 25px;
+    }   
+    .name{
+        font-size: 30px;
+    }
+    .more{
+        font-size: 14px;
+    }
+}
