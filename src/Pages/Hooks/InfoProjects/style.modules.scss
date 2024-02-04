@@ -173,6 +173,8 @@ $font-alternates: 'Montserrat Alternates', sans-serif;
     .container{
         padding: 10px;
         overflow-y: auto;
+        align-items: center;
+        justify-content: center;
     }
     .content-most {
         flex-direction: column;

@@ -52,3 +52,10 @@
         transform: scale(1.08);
     }
 }
+
+
+@media screen and (max-width: 500px) {
+    .container-nav{
+        display: none;
+    }
+}
