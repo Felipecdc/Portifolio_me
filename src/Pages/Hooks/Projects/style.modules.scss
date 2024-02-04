@@ -150,46 +150,53 @@
     
     button{
         background-color: transparent;
-        }
     }
+}
 
-    @media screen and (max-width: 850px) {
-        .container-projects{
-            width: 100%;
-        }
-        .technology{
+@media screen and (max-width: 1200px) {
+    .technology{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container-projects{
+        width: 100%;
+    }
+    .technology{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container-projects{
+        height: 100%;
+    }
+    .projects{
+        justify-content: flex-start;
+        width: 95vw;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .card{
+        margin: 0 10px;
+        width: 400px;
+    }
+    .banner{
+        width: 300px;
+        &:hover .more{
             display: none;
         }
     }
+}
 
-    @media screen and (max-width: 400px) {
-            .stack{
-                gap: 10px;
-                margin: 0;
-                button{
-                    font-size: 18px;
-                }
-            }
-            .projects{
-                justify-content: flex-start;
-                width: 95vw;
-                flex-wrap: nowrap;
-                overflow: auto;
-            }
-            .card{
-                margin: 0 10px;
-                width: 400px;
-            }
-            .banner{
-                width: 300px;
-                &:hover .more{
-                    display: none;
-                }
-            }
-    }
-
-    @media screen and (max-width: 1200px) {
-        .technology{
-            display: none;
+@media screen and (max-width: 400px) {
+    .stack{
+        gap: 10px;
+        margin: 0;
+        button{
+            font-size: 18px;
         }
     }
+}
+
