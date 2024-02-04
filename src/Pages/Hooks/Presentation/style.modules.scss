@@ -1,0 +1,24 @@
+$font-primary: 'Montserrat', sans-serif;
+$font-alternates: 'Montserrat Alternates', sans-serif;
+
+.hello, .name{
+    font-family: $font-primary;
+}
+.more{
+    font-family: $font-alternates;
+}
+
+.hello{
+    color: var(--white-700);
+    font-size: 35px;
+}
+ 
+.name{
+    color: var(--white-900);
+    font-size: 65px;
+}
+
+.more{
+    color: var(--white-700);
+    font-size: 25px;
+}

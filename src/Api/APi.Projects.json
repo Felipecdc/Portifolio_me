@@ -1,0 +1,115 @@
+{
+    "Projects": {
+        "Cancun Barbearia": {
+            "name": "Cancun Barbearia",
+            "techs": ["React Native", "TypeScript"],
+            "stack": ["Mobile", "Web", "Full-Stack"],
+            "banner": "https://i.imgur.com/mhYy6Tj.png",
+            "allimages": {
+                "1": "https://i.imgur.com/0t0GBk1.png",
+                "2": "https://i.imgur.com/pFAOmte.png",
+                "3": "https://i.imgur.com/SwNlaHF.png",
+                "4": "https://i.imgur.com/jL2dHcx.png",
+                "5": "https://i.imgur.com/HOh1gI4.png",
+                "6": "https://i.imgur.com/vFJO1wk.png",
+                "7": "https://i.imgur.com/ANe6h0n.png",
+                "8": "https://i.imgur.com/lUOrZvd.png",
+                "9": "https://i.imgur.com/CCRyUoY.png",
+                "10": "https://i.imgur.com/mRce4Hu.png",
+                "11": "https://i.imgur.com/sUQP4JX.png",    
+                "12": "https://i.imgur.com/ICHWXEn.png",
+                "13": "https://i.imgur.com/sFihYUh.png",
+                "14": "https://i.imgur.com/aMIwkZ3.png",
+                "15": "https://i.imgur.com/sFihYUh.png"
+
+            },
+            "info": {
+                "pt": "Esse sistema foi criado para uma barbearia com o intuito de que o dono da empresa possa ter um controle melhor sobre sua receita, funcionários, clientes, serviços e agendamentos através de um web app. Já o app mobile, tem um foco para os clientes, com interface simples e fácil de entender, com funcionalidades de selecionar a data em que deseja solicitar um serviço, selecionar os serviços disponíveis, seleção de horário, seleção de profissional, tela de confirmação e uma tela de perfil com suas informações e botões para deslogar ou deletar sua conta, porém, mantendo alguns dados no registro do banco de dados do sistema...",
+                "en": "This system was created for a barbershop with the purpose that the company owner can have better control over their revenue, employees, clients, services, and appointments through a web app. The mobile app, on the other hand, is focused on clients, with a simple and easy-to-understand interface. It includes functionalities such as selecting the date for service requests, choosing available services, picking a time slot, selecting a professional, a confirmation screen, and a profile screen with information and buttons to log out or delete the account. However, it keeps some data in the system's database records..."
+            },
+            "front": "Next.js, React Native, TypeScript",
+            "back": "Node.js, Express, Prisma",
+            "styles": "Sass, Styled Components",
+            "links": {
+                "github": "https://github.com/Felipecdc/Proj.Barber",
+                "linkedin": "https://www.linkedin.com/posts/felipe-castro-039335267_react-nodejs-dev-activity-7149177608293842944-4V9L?utm_source=share&utm_medium=member_desktop",
+                "deploy": "#",
+                "figma": "#"
+            }
+        },
+        "Calculadora": {
+            "name": "Calculadora",
+            "techs": ["React Native", "JavaScript"],
+            "stack": "Mobile",
+            "banner": "https://i.imgur.com/E66TKT2.png",
+            "allimages": {
+                "1": "https://i.imgur.com/hapRYsS.png"
+            },
+            "info": {
+                "pt": "App de calculadora que fiz para testar a função eval do JavaScript, que interpreta uma string e realiza o que entende, seguindo a lógica matemática. Esta função apenas realizou os cálculos digitados na tela. OBS: Sem inputs, para evitar entradas maliciosas no app.",
+                "en": "Calculator app that I made to test the eval function of JavaScript, which interprets a string and performs what it understands, following mathematical logic. This function only performed the calculations entered on the screen. NOTE: No inputs to avoid malicious entries in the app."
+            },            
+            "front": "React Native, JavaScript",
+            "back": "",
+            "styles": "",
+            "links": {
+                "github": "https://github.com/Felipecdc/Calculadora-com-react-native",
+                "linkedin": "https://www.linkedin.com/posts/felipe-castro-039335267_melhorando-um-c%C3%B3digo-de-calculadora-react-activity-7113309892773392384-touO?utm_source=share&utm_medium=member_desktop",
+                "deploy": "",
+                "figma": ""
+            }
+        },
+        "Tele Flix": {
+            "name": "Tele Flix",
+            "techs": ["React Native", "JavaScript"],
+            "stack": "Mobile",
+            "banner": "https://i.imgur.com/yDpYu62.png",
+            "allimages": {
+                "1": "https://i.imgur.com/7GCksaA.png",
+                "2": "https://i.imgur.com/zE7rt2n.png"
+            },
+            "info": {
+                "pt": "Um app com uma interface focada em stream de filmes para o usuário, com filmes separados por tema na tela principal (home) e navegações para facilitar a procura dos filmes.",
+                "en": "An app with an interface focused on streaming movies for the user, with movies separated by theme on the main screen (home) and navigations to make it easy to find movies"
+            },            
+            "front": "",
+            "back": "",
+            "styles": "",
+            "links": {
+                "github": "https://github.com/Felipecdc/app-Filme",
+                "linkedin": "https://www.linkedin.com/posts/felipe-castro-039335267_um-app-com-uma-interface-focada-em-stream-activity-7111808551685173248-J4Eb?utm_source=share&utm_medium=member_desktop",
+                "deploy": "",
+                "figma": ""
+            }
+        },
+        "Task.": {
+            "name": "Task.",
+            "techs": ["React Native", "JavaScript"],
+            "stack": "Web",
+            "banner": "https://i.imgur.com/kTUCTKH.png",
+            "allimages": {
+                "1": "",
+                "2": "",
+                "3": "",
+                "4": "",
+                "5": "",
+                "6": "",
+                "7": "",
+                "8": ""
+            },
+            "info": {
+                "pt": "Aplicativo desenvolvido para facilitar a gestão de tarefas pessoais, proporcionando um ambiente seguro com sistema de autenticação. Permite a criação, edição, exclusão e persistência de tarefas pelo usuário. Essa ferramenta foi elaborada com o objetivo de aprimorar a organização de tarefas diárias, oferecendo uma plataforma organizada para o gerenciamento pessoal de afazeres.",
+                "en": "Application designed to streamline personal task management, offering a secure information environment with an authentication system. It enables users to create, edit, delete, and persistently manage their tasks. This tool is crafted to enhance daily routines by providing an organized platform for personal task organization."
+            },            
+            "front": "",
+            "back": "",
+            "styles": "",
+            "links": {
+                "github": "https://github.com/Felipecdc/App-Tasks",
+                "linkedin": "https://www.linkedin.com/posts/felipe-castro-039335267_app-para-organizar-a-rotina-com-tarefas-pessoais-activity-7111808444533239808-e4P0?utm_source=share&utm_medium=member_desktop",
+                "deploy": "",
+                "figma": ""
+            }
+        }
+    }
+}

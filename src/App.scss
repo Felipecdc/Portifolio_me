@@ -1,0 +1,34 @@
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 20px 0 0 0;
+}
+
+.padding{
+  padding: 0 170px 0 170px ;
+}
+
+body{
+  background-color: var(--black-700);
+}
+
+button, a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+:root{
+  --white-900: #fff;
+  --white-700: #d1d1d1;
+
+  --black-900: #000;
+  --black-700: #0d0d0d;
+
+  --gray-700: #575757;
+  --gray-500: #a3a3a3;
+  --gray-300: #d6d6d6;
+
+  --orange-900: #a54500; 
+  --orange-700: #ba4f02;
+}

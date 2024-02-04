@@ -1,0 +1,44 @@
+.container-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    button{
+        background-color: var(--white-700);
+        border: 0;
+        color: var(--black-900);
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-shadow: 2px 5px 6px rgba(0,0,0,1);
+    }
+}
+
+.up{
+    width: 40px;
+    height: 40px;
+    border-radius: 90px;
+    margin-bottom: 10px;
+}
+
+.contact{
+    border-radius: 50px;
+    height: 30px;
+    width: 140px;
+    font-size: 16px;
+}
+
+.up:hover, .contact:hover{
+    animation: animation 0.8s;
+    transition: all 1s;   
+}
+
+@keyframes animation {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.08);
+    }
+}

@@ -1,0 +1,65 @@
+$font-primary: 'Montserrat', sans-serif;
+$font-alternates: 'Montserrat Alternates', sans-serif;
+
+.about-me-container {
+    display: flex;
+    color: var(--gray-300);
+}
+
+.container-photo, .container-text {
+    flex: 1; 
+    padding: 0 20px;
+}
+
+.container-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    display: flex;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange-900);
+}
+
+.who-am-i {
+    h1{
+        color: var(--orange-900);
+        font-weight: bold;
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        text-align: start;
+        line-height: 28px;
+        font-family: $font-alternates;
+    }
+    br{
+        margin-bottom: 20px ;
+    }
+}
+
+.curriculo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    padding: 10px 20px;
+    margin: 30px 0 20px 0;
+    border-radius: 4px;
+    background-color: var(--orange-900);
+    opacity: 0.5;
+    color: rgb(226, 226, 226);
+    font-weight: 600;
+    transition: all 1s;
+}
+
+.curriculo:hover {
+    opacity: 1;
+}
+
